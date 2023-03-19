@@ -5,7 +5,7 @@ import UserInterface from "src/components/interface/UserInterface/UserInterface"
 function App() {
   return (
     <main className={styles["layout"]}>
-      <UserInterface> child</UserInterface>
+      <UserInterface></UserInterface>
       <CodeInterface> child</CodeInterface>
     </main>
   );

@@ -1,6 +1,8 @@
 .layout {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   min-height: 100vh;
-  background-color: pink;
+
+  @media screen and (min-width: 480px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
