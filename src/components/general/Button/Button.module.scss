@@ -1,0 +1,15 @@
+.button {
+  //   background-color: pink;
+  width: max-content;
+  &[data-size="small"] {
+    height: 2rem;
+    font-size: small;
+  }
+  &[data-size="normal"] {
+    height: 3rem;
+  }
+  &[data-size="large"] {
+    height: 5rem;
+    font-size: large;
+  }
+}
